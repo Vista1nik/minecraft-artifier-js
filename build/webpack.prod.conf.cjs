@@ -3,7 +3,7 @@
 var path = require('path');
 var webpack = require('webpack');
 var merge = require('webpack-merge');
-var baseWebpackConfig = require('./webpack.base.conf.js');
+var baseWebpackConfig = require('./webpack.base.conf.cjs');
 
 var prodWebpackConfig = {
     entry: {

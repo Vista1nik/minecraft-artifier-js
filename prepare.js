@@ -1,3 +1,14 @@
+// require for node 14 +
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+
+// __dirname and __filename
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+
+
 const path = require('path')
 const Jimp = require("jimp")
 const fs = require('fs')

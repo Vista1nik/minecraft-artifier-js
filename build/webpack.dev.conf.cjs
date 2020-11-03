@@ -2,7 +2,7 @@
 
 var path = require('path');
 var merge = require('webpack-merge');
-var baseWebpackConfig = require('./webpack.base.conf.js');
+var baseWebpackConfig = require('./webpack.base.conf.cjs');
 
 var devWebpackConfig = {
     devServer: {

@@ -3023,6 +3023,20 @@
     "axis": true
   },
   {
+    "name": "Composter",
+    "texture_image": "composter_side.png",
+    "game_id": "minecraft:composter",
+    "game_id_13": "minecraft:composter",
+    "block_id": null,
+    "data_id": 0,
+    "luminance": false,
+    "transparency": false,
+    "falling": true,
+    "redstone": false,
+    "survival": true,
+    "version": 14
+  },
+  {
     "name": "Honeycomb Block",
     "texture_image": "honeycomb_block.png",
     "game_id": "minecraft:honeycomb_block",
@@ -3046,5 +3060,33 @@
     "survival": true,
     "version": 15,
     "__comment": "all sides look alike"
+  },
+  {
+    "name": "Bee Nest",
+    "texture_image": "bee_nest_side.png",
+    "game_id": "minecraft:bee_nest",
+    "game_id_13": "minecraft:bee_nest",
+    "block_id": 473,
+    "data_id": 0,
+    "luminance": false,
+    "transparency": false,
+    "falling": true,
+    "redstone": false,
+    "survival": false,
+    "version": 15
+  },
+  {
+    "name": "Beehive",
+    "texture_image": "beehive_side.png",
+    "game_id": "minecraft:beehive",
+    "game_id_13": "minecraft:beehive",
+    "block_id": 474,
+    "data_id": 0,
+    "luminance": false,
+    "transparency": false,
+    "falling": true,
+    "redstone": false,
+    "survival": true,
+    "version": 15
   }
 ]

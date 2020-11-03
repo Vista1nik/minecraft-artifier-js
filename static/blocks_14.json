@@ -3021,5 +3021,19 @@
     "survival": true,
     "version": 14,
     "axis": true
+  },
+  {
+    "name": "Composter",
+    "texture_image": "composter_side.png",
+    "game_id": "minecraft:composter",
+    "game_id_13": "minecraft:composter",
+    "block_id": null,
+    "data_id": 0,
+    "luminance": false,
+    "transparency": false,
+    "falling": true,
+    "redstone": false,
+    "survival": true,
+    "version": 14
   }
 ]

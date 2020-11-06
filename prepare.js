@@ -12,7 +12,7 @@ const __dirname = dirname(__filename);
 const path = require('path')
 const Jimp = require("jimp")
 const fs = require('fs')
-const blocksDb = require('./static/blocks_16.json')
+const blocksDb = require('./static/blocks_17.json')
 const arr = []
 const colors = []
 

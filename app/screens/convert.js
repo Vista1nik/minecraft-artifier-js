@@ -90,7 +90,7 @@ const store = {
         this.$notifyChanged.classList.add('hidden')
     },
     resetScreen() {
-        this.$selectVersion.value = 12
+        this.$selectVersion.value = 16
         this.$selectMethod.value = 'commblock'
         this.$selectFacing.value = 'north'
         document.querySelector('section.convert-screen').classList.add('hidden')

@@ -374,7 +374,7 @@ const store = {
                 }
             }
             const version = parseInt(this.$version.value)
-            if (version < 13) {
+            if (version < 13 || true) { //todo jo what tf is this
                 store.parent.blocksDefault.forEach((item) => {
                     if (item.version > version) {
                         excludeArr.push(item.id)

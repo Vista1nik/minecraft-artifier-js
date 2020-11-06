@@ -129,7 +129,7 @@ function MineartCanvas() {
             showRulers: true,
             showOriginal: false,
             showDebugDrawGroups: false,
-            minecraftVersion: 12,
+            minecraftVersion: 16,
             drawGroupsCurrent: 0,
             gridColor: '#ff4778'
         },
@@ -547,7 +547,7 @@ function MineartCanvas() {
                 game_id: 'minecraft:air'
             }
         }
-        if (store.settings.minecraftVersion === 13) {
+        if (store.settings.minecraftVersion >= 13) {
             gameId = block['game_id_13']
         } else {
             gameId = block.game_id
@@ -1613,6 +1613,9 @@ function MineartCanvas() {
                 killCommand = `kill @e[type=${commandBlockCartId},r=2]`
                 break
             case 13:
+            case 14:
+            case 15:
+            case 16:
                 fallingBlockId = 'falling_block'
                 commandBlockCartId = 'command_block_minecart'
                 killCommand = `kill @e[type=${commandBlockCartId},distance=..2]`

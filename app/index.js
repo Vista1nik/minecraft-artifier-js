@@ -21,7 +21,7 @@ const store = {
     uploadedType: null,
     uploadedImage: new Image(),
     uploadedImageName: null,
-    minecraftVersion: 12,
+    minecraftVersion: 16,
     waitForLoaded: {
         arr: null,
         width: null,
